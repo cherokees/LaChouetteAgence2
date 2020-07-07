@@ -9,6 +9,9 @@ body {
 .citation_Maxime_Guilbart span {
     font-size: 15px;
 }
+.form-group{
+    margin-bottom: 10px;
+}
 a,
 button {
     transition: all .3s ease-in-out;
@@ -1059,6 +1062,9 @@ h4 {
         padding-left: 0;
         padding-right: 0;
     }
+}
+#message {
+    width: 300px;
 }
 
 @media (max-width: 767px) {
