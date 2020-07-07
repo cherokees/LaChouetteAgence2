@@ -6,7 +6,9 @@ body {
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
 }
-
+.citation_Maxime_Guilbart span {
+    font-size: 15px;
+}
 a,
 button {
     transition: all .3s ease-in-out;
@@ -363,6 +365,15 @@ a:hover {
 }
 
 @media (min-width: 768px) {
+    .Citation_ChouetteAgence {
+        font-size: 25px;
+    }
+    .citation_Maxime_Guilbart {
+        font-size: 25px;
+    }
+    .Description_LaChouetteAgence {
+        font-size: 25px;
+    }
     .site-navigation {
         position: absolute;
         top: 50%;
@@ -890,6 +901,21 @@ h4 {
 }
 
 @media (max-width: 767px) {
+    .Citation_ChouetteAgence {
+        font-size: 15px;
+    }
+    .citation_Maxime_Guilbart {
+        font-size: 15px;
+    }
+    .Description_LaChouetteAgence {
+        font-size: 15px;
+    }
+    .citation_Maxime_Guilbart span {
+        font-size: 11px;
+    }
+    .img-responsive {
+        width: 600px;
+    }
     .page-container {
         overflow-x: hidden;
         position: relative;
